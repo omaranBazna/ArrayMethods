@@ -42,7 +42,10 @@ const things = [
     points: 6,
   },
 ];
-const myFavorite = things.filter((a) => {
-  return a.favorite == true;
-});
+/*
+const myFavorite =things.filter((a)=>{
+    a.favorite==true
+})
+*/
+const thing = things.filter((a) => a.points > 15);
 console.log(myFavorite);

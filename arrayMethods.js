@@ -48,4 +48,8 @@ const myFavorite =things.filter((a)=>{
 })
 */
 const thing = things.filter((a) => a.points > 15);
+
+const findId = things.find((a) => {
+  a.id == 16;
+});
 console.log(myFavorite);

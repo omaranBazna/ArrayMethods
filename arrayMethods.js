@@ -42,3 +42,7 @@ const things = [
     points: 6,
   },
 ];
+const myFavorite = things.filter((a) => {
+  return a.favorite == true;
+});
+console.log(myFavorite);
